@@ -6,7 +6,7 @@ on:
     # scheduled at 07:00 every Monday and Thursday
     
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, reopened]
 
   workflow_dispatch:  # click the button on Github repo!
 

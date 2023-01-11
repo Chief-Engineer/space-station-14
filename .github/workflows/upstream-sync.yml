@@ -6,6 +6,7 @@ on:
     # scheduled at 07:00 every Monday and Thursday
     
   pull_request:
+    types: [opened, synchronize, reopened]
 
   workflow_dispatch:  # click the button on Github repo!
 
@@ -19,12 +20,12 @@ jobs:
     # Step 1: run a standard checkout action, provided by github
     - name: Checkout target repo
       uses: actions/checkout@v2
-      # with:
+      with:
         # optional: set the branch to checkout,
         # sync action checks out your 'target_sync_branch' anyway
-        # ref:  master
+        ref:  master
         # REQUIRED if your upstream repo is private (see wiki)
-        # persist-credentials: false
+        persist-credentials: false
 
     # REQUIRED step
     # Step 2: run the sync action

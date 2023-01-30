@@ -1360,7 +1360,22 @@
       makeSentient: true
       name: ghost-role-information-giant-spider-name
       description: ghost-role-information-giant-spider-description
-      
+      rules: >-
+        You are an antagonist, wreak havoc on the station's inhabitants!
+
+        Don't attack atmospheric systems, station power, communications computers, or cloning systems.
+
+        Don't befriend the crew.
+
+
+        All normal rules apply unless an administrator tells you otherwise.
+
+        You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+        You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+        You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+
 - type: entity
   name: possum
   parent: SimpleMobBase

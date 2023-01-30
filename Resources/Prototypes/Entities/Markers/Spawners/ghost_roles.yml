@@ -15,6 +15,7 @@
 
       Don't attack atmospheric systems, excluding scrubbers and the waste network.
 
+
       All normal rules apply unless an administrator tells you otherwise.
 
       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
@@ -43,6 +44,7 @@
       You are an intelligent fruit bat. Follow the chaplain around and obey their commands.
 
       Don't cause any trouble unless the chaplain tells you to.
+
 
       All normal rules apply unless an administrator tells you otherwise.
 
@@ -73,6 +75,7 @@
 
       You are an antagonist, help the chaplain and any of his flock!
 
+
       All normal rules apply unless an administrator tells you otherwise.
 
       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
@@ -98,6 +101,7 @@
     prototype: MobHumanNukeOp
     rules: >-
       You are a syndicate operative tasked with the destruction of the station. You are an antagonist, do whatever is required to complete this task!
+
 
       All normal rules apply unless an administrator tells you otherwise.
 

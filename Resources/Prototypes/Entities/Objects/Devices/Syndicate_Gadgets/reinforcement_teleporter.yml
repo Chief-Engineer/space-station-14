@@ -13,7 +13,16 @@
     prototype: MobHumanSyndicateAgent
     name: Syndicate Agent
     description: Someone needs reinforcements. You, the first person the syndicate could find, will help them.
-    rules: Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+    rules: >-
+      You are a syndicate operative. You are an antagonist, do whatever is required to help whoever called you!
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: EmitSoundOnUse
     sound: /Audio/Misc/emergency_meeting.ogg
   - type: ItemCooldown

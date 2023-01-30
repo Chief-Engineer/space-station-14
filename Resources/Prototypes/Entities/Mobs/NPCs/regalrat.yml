@@ -86,7 +86,20 @@
     makeSentient: true
     name: Rat King
     description: You are the Rat King, scavenge food in order to produce rat minions to do your bidding.
-    rules: You are an antagonist, scavenge, attack, and grow your hoard!
+    rules: >-
+      You are an antagonist, scavenge and grow your hoard!
+
+      Don't attack station power, communications computers, or cloning systems.
+
+      Don't attack atmospheric systems, excluding scrubbers and the waste network.
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: Tag
     tags:
       - CannotSuicide
@@ -285,7 +298,22 @@
     makeSentient: true
     name: Rat Servant
     description: You are a Rat Servant. You must follow your king's orders.
-    rules: You are an antagonist, scavenge, attack, and serve your king!
+    rules: >-
+      You are an antagonist, scavenge and serve your king!
+
+      Obey orders given by your rat king.
+
+      Don't attack station power, communications computers, or cloning systems.
+
+      Don't attack atmospheric systems, excluding scrubbers and the waste network.
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: Tag
     tags:
       - CannotSuicide

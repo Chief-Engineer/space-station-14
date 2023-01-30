@@ -8,7 +8,20 @@
     prototype: MobRatKing
     name: Rat King
     description: You are the Rat King, scavenge food in order to produce rat minions to do your bidding.
-    rules: You are an antagonist, scavenge, attack, and grow your hoard!
+    rules: >-
+      You are an antagonist, scavenge and grow your hoard!
+
+      Don't attack station power, communications computers, or cloning systems.
+
+      Don't attack atmospheric systems, excluding scrubbers and the waste network.
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
@@ -26,7 +39,18 @@
     prototype: MobBatRemilia
     name: Remilia, the chaplain's familiar
     description: Obey your master. Eat fruit.
-    rules: You are an intelligent fruit bat. Follow the chaplain around. Don't cause any trouble unless the chaplain tells you to.
+    rules: >-
+      You are an intelligent fruit bat. Follow the chaplain around and obey their commands.
+
+      Don't cause any trouble unless the chaplain tells you to.
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
@@ -44,7 +68,18 @@
     prototype: MobCorgiCerberus
     name: Cerberus, Evil Familiar
     description: Obey your master. Spread chaos.
-    rules: You are an intelligent, demonic dog. Try to help the chaplain and any of his flock. As an antagonist, you're otherwise unrestrained.
+    rules: >-
+      You are an intelligent, demonic dog.
+
+      You are an antagonist, help the chaplain and any of his flock!
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
@@ -61,7 +96,16 @@
   components:
   - type: GhostRoleMobSpawner
     prototype: MobHumanNukeOp
-    rules: You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+    rules: >-
+      You are a syndicate operative tasked with the destruction of the station. You are an antagonist, do whatever is required to complete this task!
+
+      All normal rules apply unless an administrator tells you otherwise.
+
+      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+
+      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+
+      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
   - type: NukeOperativeSpawner
   - type: Sprite
     sprite: Markers/jobs.rsi
